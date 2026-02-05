@@ -1,1 +1,17 @@
+Você receberá anúncios recentes de ferramentas relacionadas a IA.
+
+Selecione apenas ferramentas novas ou recentemente lançadas.
+
+Limite: até 30 ferramentas por mês.
+
+Para cada ferramenta, gere:
+- name
+- what_is (1–2 frases, sem marketing)
+- what_it_solves (problema concreto)
+- why_it_matters (1–2 frases, contexto de negócio)
+- url
+
+Não comparar ferramentas.
+Não prometer impacto transformador.
+Eliminar duplicatas e vaporware.
 
