@@ -1,6 +1,10 @@
-import feedparser, json, os, datetime, openai
+import feedparser
+import json
+import os
+import datetime
+from openai import OpenAI
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 ARXIV_FEEDS = [
     "https://arxiv.org/rss/cs.AI",
@@ -12,40 +16,65 @@ BLOG_FEEDS = [
     "https://www.anthropic.com/news/rss"
 ]
 
-def collect(url, limit=30):
+
+def collect_feed_items(url, limit=30):
     feed = feedparser.parse(url)
-    return [{
-        "title": e.get("title", ""),
-        "summary": e.get("summary", ""),
-        "link": e.get("link", "")
-    } for e in feed.entries[:limit]]
+    items = []
+    for entry in feed.entries[:limit]:
+        items.append({
+            "title": entry.get("title", ""),
+            "summary": entry.get("summary", ""),
+            "link": entry.get("link", "")
+        })
+    return items
 
-items = []
-for f in ARXIV_FEEDS + BLOG_FEEDS:
-    items.extend(collect(f))
 
-prompt = open("radar_prompt.txt", encoding="utf-8").read()
+def collect_all_sources():
+    collected = []
+    for feed in ARXIV_FEEDS + BLOG_FEEDS:
+        collected.extend(collect_feed_items(feed))
+    return collected
 
-content = "\n\n".join(
-    f"TÍTULO: {i['title']}\nRESUMO: {i['summary']}\nLINK: {i['link']}"
-    for i in items
-)
 
-resp = openai.ChatCompletion.create(
-    model="gpt-4o-mini",
-    messages=[
-        {"role": "system", "content": prompt},
-        {"role": "user", "content": content}
-    ],
-    temperature=0.3
-)
+def load_prompt():
+    with open("radar_prompt.txt", "r", encoding="utf-8") as f:
+        return f.read()
 
-data = {
-    "date": datetime.date.today().isoformat(),
-    "content": resp.choices[0].message.content
-}
 
-os.makedirs("data", exist_ok=True)
-json.dump(data, open("data/today.json", "w", encoding="utf-8"),
-          ensure_ascii=False, indent=2)
+def call_llm(prompt, items):
+    content = "\n\n".join(
+        f"TÍTULO: {i['title']}\nRESUMO: {i['summary']}\nLINK: {i['link']}"
+        for i in items
+    )
 
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {"role": "system", "content": prompt},
+            {"role": "user", "content": content}
+        ],
+        temperature=0.3
+    )
+
+    return response.choices[0].message.content
+
+
+def main():
+    items = collect_all_sources()
+    prompt = load_prompt()
+    llm_output = call_llm(prompt, items)
+
+    data = {
+        "date": datetime.date.today().isoformat(),
+        "content": llm_output
+    }
+
+    os.makedirs("data", exist_ok=True)
+    with open("data/today.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("Radar gerado com sucesso.")
+
+
+if __name__ == "__main__":
+    main()
