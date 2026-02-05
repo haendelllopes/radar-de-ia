@@ -1,1 +1,5 @@
+feedparser
+requests
+openai
+python-dateutil
 
