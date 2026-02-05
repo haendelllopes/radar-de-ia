@@ -19,11 +19,17 @@ if len(existing) >= LIMIT:
 
 prompt = open("tools_prompt.txt", encoding="utf-8").read()
 
-resp = openai.ChatCompletion.create(
+resp = client.chat.completions.create(
     model="gpt-4o-mini",
-    messages=[{"role": "system", "content": prompt}],
-    temperature=0.3
+    messages=[
+        {"role": "system", "content": prompt}
+    ],
+    temperature=0.3,
+    response_format={"type": "json_object"}
 )
+
+parsed = json.loads(resp.choices[0].message.content)
+new_tools = parsed.get("tools", [])
 
 new_tools = json.loads(resp.choices[0].message.content).get("tools", [])
 
