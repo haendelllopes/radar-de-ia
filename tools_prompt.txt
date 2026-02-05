@@ -1,17 +1,21 @@
-Você receberá anúncios recentes de ferramentas relacionadas a IA.
+Você deve responder EXCLUSIVAMENTE em JSON válido.
 
-Selecione apenas ferramentas novas ou recentemente lançadas.
+Formato obrigatório da resposta:
 
-Limite: até 30 ferramentas por mês.
+{
+  "tools": [
+    {
+      "name": "",
+      "what_is": "",
+      "what_it_solves": "",
+      "why_it_matters": "",
+      "url": ""
+    }
+  ]
+}
 
-Para cada ferramenta, gere:
-- name
-- what_is (1–2 frases, sem marketing)
-- what_it_solves (problema concreto)
-- why_it_matters (1–2 frases, contexto de negócio)
-- url
-
-Não comparar ferramentas.
-Não prometer impacto transformador.
-Eliminar duplicatas e vaporware.
-
+Regras:
+- Máximo de 30 ferramentas
+- Somente ferramentas novas ou recentemente lançadas
+- Linguagem objetiva, sem marketing
+- Não incluir comentários fora do JSON
