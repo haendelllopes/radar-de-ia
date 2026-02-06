@@ -6,8 +6,8 @@ from openai import OpenAI
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 MONTH = datetime.date.today().strftime("%Y-%m")
-BASE_PATH = f"data/tools/{MONTH}.json"
-CURRENT_PATH = "data/tools/current.json"
+BASE_PATH = f"docs/tools/{MONTH}.json"
+CURRENT_PATH = "docs/tools/current.json"
 LIMIT = 30
 
 
@@ -20,7 +20,7 @@ if os.path.exists(BASE_PATH):
 # Se já bateu o limite, apenas replica para current.json
 if len(existing) >= LIMIT:
     payload = {"month": MONTH, "tools": existing}
-    os.makedirs("data/tools", exist_ok=True)
+    os.makedirs("docs/tools", exist_ok=True)
     with open(CURRENT_PATH, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
     exit()
@@ -57,7 +57,7 @@ for tool in new_tools:
 # Salva arquivos
 payload = {"month": MONTH, "tools": existing}
 
-os.makedirs("data/tools", exist_ok=True)
+os.makedirs("docs/tools", exist_ok=True)
 
 with open(BASE_PATH, "w", encoding="utf-8") as f:
     json.dump(payload, f, ensure_ascii=False, indent=2)
