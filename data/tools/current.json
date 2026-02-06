@@ -161,6 +161,55 @@
       "what_it_solves": "Melhora a resposta de chatbots com IA generativa.",
       "why_it.matters": "Aumenta a satisfação do cliente em interações automatizadas.",
       "url": "https://gptify.com"
+    },
+    {
+      "name": "Fotor",
+      "what_is": "Uma plataforma de edição de fotos com recursos de IA.",
+      "what_it_solves": "Melhora a qualidade de imagens e permite edições rápidas.",
+      "why_it.matters": "Acessível para usuários sem experiência em design gráfico.",
+      "url": "https://www.fotor.com"
+    },
+    {
+      "name": "Kuki Chatbot",
+      "what_is": "Um chatbot de conversação com IA.",
+      "what_it_solves": "Fornece suporte ao cliente e interação em tempo real.",
+      "why_it.matters": "Melhora a experiência do cliente e reduz a carga de trabalho humano.",
+      "url": "https://www.kuki.ai"
+    },
+    {
+      "name": "Replika",
+      "what_is": "Um chatbot de IA que atua como amigo virtual.",
+      "what_it_solves": "Oferece suporte emocional e interação social.",
+      "why_it.matters": "Ajuda na saúde mental e no bem-estar dos usuários.",
+      "url": "https://replika.ai"
+    },
+    {
+      "name": "Poe",
+      "what_is": "Uma plataforma para interagir com diferentes modelos de IA.",
+      "what_it_solves": "Permite aos usuários experimentar e comparar diversos modelos de linguagem.",
+      "why_it.matters": "Facilita a compreensão e o uso de IA para diferentes finalidades.",
+      "url": "https://poe.com"
+    },
+    {
+      "name": "Genei",
+      "what_is": "Uma ferramenta de pesquisa e resumo de informações com IA.",
+      "what_it_solves": "Facilita a coleta e síntese de informações relevantes.",
+      "why_it.matters": "Aumenta a eficiência na pesquisa e no aprendizado.",
+      "url": "https://www.genei.io"
+    },
+    {
+      "name": "TidyCal",
+      "what_is": "Uma ferramenta de agendamento inteligente com IA.",
+      "what_it_solves": "Otimizando o agendamento de reuniões e eventos.",
+      "why_it.matters": "Reduz conflitos de agenda e melhora a gestão do tempo.",
+      "url": "https://tidycal.com"
+    },
+    {
+      "name": "Lattice",
+      "what_is": "Uma plataforma de gestão de desempenho com IA.",
+      "what_it_solves": "Apoia o desenvolvimento e feedback de funcionários.",
+      "why_it.matters": "Melhora a retenção e o engajamento de talentos nas empresas.",
+      "url": "https://lattice.com"
     }
   ]
 }
