@@ -1,0 +1,166 @@
+{
+  "month": "2026-02",
+  "tools": [
+    {
+      "name": "ChatGPT-4",
+      "what_is": "Um modelo de linguagem avançado da OpenAI.",
+      "what_it_solves": "Gera texto coerente e contextualmente relevante em diversas aplicações.",
+      "why_it_matters": "Aprimora a interação homem-máquina e automatiza tarefas de escrita.",
+      "url": "https://openai.com/chatgpt"
+    },
+    {
+      "name": "DALL-E 3",
+      "what_is": "Um gerador de imagens baseado em texto da OpenAI.",
+      "what_it_solves": "Cria imagens a partir de descrições textuais detalhadas.",
+      "why_it_matters": "Facilita a criação visual e a expressão artística digital.",
+      "url": "https://openai.com/dall-e"
+    },
+    {
+      "name": "Notion AI",
+      "what_is": "Uma extensão de inteligência artificial para o Notion.",
+      "what_it_solves": "Aumenta a produtividade ao ajudar na organização e geração de conteúdo.",
+      "why_it_matters": "Melhora a eficiência em ambientes de trabalho colaborativos.",
+      "url": "https://www.notion.so/product/ai"
+    },
+    {
+      "name": "Runway Gen-2",
+      "what_is": "Uma plataforma de criação de vídeo com inteligência artificial.",
+      "what_it_solves": "Permite edição e geração de vídeos de forma intuitiva e rápida.",
+      "why_it_matters": "Revoluciona a produção de conteúdo audiovisual.",
+      "url": "https://runwayml.com/gen-2"
+    },
+    {
+      "name": "Jasper AI",
+      "what_is": "Uma ferramenta de escrita assistida por IA.",
+      "what_it_solves": "Ajuda na criação de textos para marketing, blogs e redes sociais.",
+      "why_it_matters": "Aumenta a produtividade de criadores de conteúdo.",
+      "url": "https://www.jasper.ai"
+    },
+    {
+      "name": "Lumen5",
+      "what_is": "Uma plataforma de criação de vídeos a partir de texto.",
+      "what_it_solves": "Transforma artigos e postagens em vídeos de forma automatizada.",
+      "why_it_matters": "Facilita a criação de conteúdo visual para marketing.",
+      "url": "https://www.lumen5.com"
+    },
+    {
+      "name": "Synthesia",
+      "what_is": "Uma plataforma de criação de vídeos com avatares gerados por IA.",
+      "what_it_solves": "Permite a produção de vídeos educativos e de marketing sem necessidade de filmagens.",
+      "why_it_matters": "Reduz custos e tempo na produção de vídeos.",
+      "url": "https://www.synthesia.io"
+    },
+    {
+      "name": "Copy.ai",
+      "what_is": "Uma ferramenta de geração de texto assistida por IA.",
+      "what_it_solves": "Cria cópias de marketing, postagens em redes sociais e mais.",
+      "why_it_matters": "Aumenta a eficiência em estratégias de conteúdo.",
+      "url": "https://www.copy.ai"
+    },
+    {
+      "name": "Pictory",
+      "what_is": "Uma ferramenta de edição de vídeo baseada em IA.",
+      "what_it_solves": "Facilita a criação de vídeos curtos a partir de longos conteúdos.",
+      "why_it.matters": "Acelera o processo de edição e criação de conteúdo visual.",
+      "url": "https://pictory.ai"
+    },
+    {
+      "name": "Descript",
+      "what_is": "Uma plataforma de edição de áudio e vídeo com transcrição automática.",
+      "what_it_solves": "Permite edição de mídia de forma intuitiva, como edição de texto.",
+      "why_it.matters": "Simplifica o processo de edição para criadores de conteúdo.",
+      "url": "https://www.descript.com"
+    },
+    {
+      "name": "Figma AI",
+      "what_is": "Uma ferramenta de design colaborativo com recursos de IA.",
+      "what_it_solves": "Aprimora o design de interfaces e protótipos com sugestões automáticas.",
+      "why_it.matters": "Aumenta a eficiência e a criatividade no design de produtos digitais.",
+      "url": "https://www.figma.com"
+    },
+    {
+      "name": "Canva Magic Write",
+      "what_is": "Uma ferramenta de escrita assistida dentro do Canva.",
+      "what_it_solves": "Gera textos criativos para designs e apresentações.",
+      "why_it.matters": "Facilita a criação de conteúdo visual e textual de forma integrada.",
+      "url": "https://www.canva.com"
+    },
+    {
+      "name": "Miro AI",
+      "what_is": "Uma ferramenta de colaboração visual com recursos de IA.",
+      "what_it_solves": "Aprimora brainstorming e planejamento com sugestões automáticas.",
+      "why_it.matters": "Melhora a colaboração em equipe e a geração de ideias.",
+      "url": "https://miro.com"
+    },
+    {
+      "name": "Tome",
+      "what_is": "Uma ferramenta de apresentação assistida por IA.",
+      "what_it_solves": "Cria apresentações dinâmicas a partir de textos e ideias.",
+      "why_it.matters": "Facilita a criação de apresentações envolventes e informativas.",
+      "url": "https://beta.tome.app"
+    },
+    {
+      "name": "Fireflies",
+      "what_is": "Uma ferramenta de transcrição e colaboração em reuniões.",
+      "what_it_solves": "Registra e organiza notas de reuniões automaticamente.",
+      "why_it.matters": "Aumenta a eficiência e a organização em ambientes de trabalho.",
+      "url": "https://fireflies.ai"
+    },
+    {
+      "name": "Glean",
+      "what_is": "Uma ferramenta de busca e organização de informações.",
+      "what_it_solves": "Facilita a localização de informações em documentos e comunicações.",
+      "why_it.matters": "Melhora a produtividade ao reduzir o tempo de busca.",
+      "url": "https://glean.com"
+    },
+    {
+      "name": "Superhuman",
+      "what_is": "Um cliente de e-mail com recursos de IA.",
+      "what_it_solves": "Aprimora a gestão de e-mails com sugestões inteligentes.",
+      "why_it.matters": "Aumenta a eficiência na comunicação por e-mail.",
+      "url": "https://superhuman.com"
+    },
+    {
+      "name": "Lattice",
+      "what_is": "Uma plataforma de gestão de desempenho com IA.",
+      "what_it_solves": "Facilita o acompanhamento e desenvolvimento de colaboradores.",
+      "why_it.matters": "Melhora a gestão de talentos e a cultura organizacional.",
+      "url": "https://lattice.com"
+    },
+    {
+      "name": "Airtable AI",
+      "what_is": "Uma extensão de inteligência artificial para o Airtable.",
+      "what_it_solves": "Aprimora a organização de dados e automação de fluxos de trabalho.",
+      "why_it.matters": "Aumenta a eficiência na gestão de projetos e informações.",
+      "url": "https://airtable.com"
+    },
+    {
+      "name": "Zapier AI",
+      "what_is": "Uma ferramenta de automação de tarefas com IA.",
+      "what_it_solves": "Conecta aplicativos e automatiza fluxos de trabalho.",
+      "why_it.matters": "Reduz o tempo gasto em tarefas repetitivas.",
+      "url": "https://zapier.com"
+    },
+    {
+      "name": "Trello AI",
+      "what_is": "Uma extensão de inteligência artificial para o Trello.",
+      "what_it_solves": "Aprimora a gestão de projetos com sugestões e automações.",
+      "why_it.matters": "Melhora a organização e a produtividade em equipes.",
+      "url": "https://trello.com"
+    },
+    {
+      "name": "Otter.ai",
+      "what_is": "Uma ferramenta de transcrição e organização de reuniões.",
+      "what_it_solves": "Registra e organiza notas de reuniões automaticamente.",
+      "why_it.matters": "Aumenta a eficiência na comunicação e documentação.",
+      "url": "https://otter.ai"
+    },
+    {
+      "name": "Notability",
+      "what_is": "Um aplicativo de anotações com recursos de IA.",
+      "what_it_solves": "Facilita a organização e busca de anotações.",
+      "why_it.matters": "Melhora a produtividade e a retenção de informações.",
+      "url": "https://notability.com"
+    }
+  ]
+}
