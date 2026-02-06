@@ -20,7 +20,7 @@ jobs:
       - run: |
           git config user.name "radar-bot"
           git config user.email "bot@radar.ai"
-          git add data/tools
+          git add docs/tools
           git commit -m "update tools" || echo "no changes"
           git push
 
