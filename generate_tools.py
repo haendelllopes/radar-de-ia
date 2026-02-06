@@ -35,7 +35,10 @@ with open("tools_prompt.txt", encoding="utf-8") as f:
 response = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[
-        {"role": "system", "content": prompt}
+        {
+            "role": "system",
+            "content": prompt + "\n\nResponda exclusivamente em JSON válido."
+        }
     ],
     temperature=0.3,
     response_format={"type": "json_object"}
