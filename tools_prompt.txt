@@ -22,3 +22,21 @@ Critério de relevância:
 - Redução de custo
 - Nova capacidade real
 - Adoção por empresas
+
+IMPORTANTE:
+A resposta DEVE ser retornada em JSON válido.
+Não inclua nenhum texto fora do JSON.
+
+Formato obrigatório da resposta em JSON:
+
+{
+  "tools": [
+    {
+      "name": "",
+      "what_is": "",
+      "what_it_solves": "",
+      "why_it_matters": "",
+      "url": ""
+    }
+  ]
+}
