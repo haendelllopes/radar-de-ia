@@ -1,0 +1,215 @@
+{
+  "month": "2026-02",
+  "tools": [
+    {
+      "name": "ChatGPT-4",
+      "what_is": "Modelo de linguagem avançado da OpenAI.",
+      "what_it_solves": "Gera texto coerente e relevante em resposta a perguntas e prompts.",
+      "why_it_matters": "Aumenta a eficiência na geração de conteúdo e suporte ao cliente.",
+      "url": "https://openai.com/chatgpt"
+    },
+    {
+      "name": "DALL-E 3",
+      "what_is": "Modelo de geração de imagens a partir de texto da OpenAI.",
+      "what_it_solves": "Cria imagens de alta qualidade com base em descrições textuais.",
+      "why_it_matters": "Facilita a visualização de ideias e conceitos de forma criativa.",
+      "url": "https://openai.com/dall-e-3"
+    },
+    {
+      "name": "Notion AI",
+      "what_is": "Assistente de IA integrado ao Notion.",
+      "what_it_solves": "Acelera a criação de documentos e organização de informações.",
+      "why_it_matters": "Melhora a produtividade em ambientes de trabalho colaborativos.",
+      "url": "https://www.notion.so/product/ai"
+    },
+    {
+      "name": "Runway Gen-2",
+      "what_is": "Ferramenta de edição de vídeo baseada em IA.",
+      "what_it_solves": "Facilita a criação e edição de vídeos com recursos automatizados.",
+      "why_it_matters": "Reduz o tempo e o custo de produção de conteúdo audiovisual.",
+      "url": "https://runwayml.com/gen2"
+    },
+    {
+      "name": "Jasper AI",
+      "what_is": "Plataforma de escrita assistida por IA.",
+      "what_it_solves": "Ajuda na criação de conteúdo de marketing e cópias publicitárias.",
+      "why_it_matters": "Aumenta a eficiência e a qualidade da produção textual.",
+      "url": "https://www.jasper.ai"
+    },
+    {
+      "name": "Synthesia",
+      "what_is": "Plataforma de criação de vídeos com avatares gerados por IA.",
+      "what_it_solves": "Permite a produção de vídeos educativos e promocionais sem necessidade de filmagem.",
+      "why_it.matters": "Facilita a criação de conteúdo em vídeo acessível e escalável.",
+      "url": "https://www.synthesia.io"
+    },
+    {
+      "name": "Copy.ai",
+      "what_is": "Ferramenta de geração de texto assistida por IA.",
+      "what_it_solves": "Gera cópias criativas para marketing e redes sociais.",
+      "why_it.matters": "Aumenta a criatividade e reduz o tempo de escrita.",
+      "url": "https://www.copy.ai"
+    },
+    {
+      "name": "Figma AI",
+      "what_is": "Integração de IA no Figma para design.",
+      "what_it_solves": "Acelera o processo de design com sugestões e automações.",
+      "why_it.matters": "Melhora a colaboração e a eficiência em design de interfaces.",
+      "url": "https://www.figma.com"
+    },
+    {
+      "name": "Adobe Firefly",
+      "what_is": "Ferramenta de geração de imagens e vídeos da Adobe.",
+      "what_it_solves": "Cria conteúdo visual a partir de descrições textuais.",
+      "why_it.matters": "Aumenta a criatividade e a personalização em projetos visuais.",
+      "url": "https://www.adobe.com/sensei/generative-ai/firefly.html"
+    },
+    {
+      "name": "Lumen5",
+      "what_is": "Plataforma de criação de vídeos automatizados.",
+      "what_it_solves": "Transforma textos em vídeos de forma rápida e fácil.",
+      "why_it.matters": "Facilita a produção de conteúdo de vídeo para marketing.",
+      "url": "https://www.lumen5.com"
+    },
+    {
+      "name": "Tome",
+      "what_is": "Ferramenta de apresentação assistida por IA.",
+      "what_it_solves": "Cria apresentações visualmente atraentes a partir de texto.",
+      "why_it.matters": "Aumenta a eficiência na criação de apresentações profissionais.",
+      "url": "https://beta.tome.app"
+    },
+    {
+      "name": "Glean",
+      "what_is": "Ferramenta de busca e organização de informações.",
+      "what_it_solves": "Facilita a localização de informações relevantes em grandes volumes de dados.",
+      "why_it.matters": "Aumenta a produtividade ao melhorar a acessibilidade à informação.",
+      "url": "https://www.glean.co"
+    },
+    {
+      "name": "Miro AI",
+      "what_is": "Integração de IA na plataforma de colaboração Miro.",
+      "what_it_solves": "Acelera a geração de ideias e organização de projetos.",
+      "why_it.matters": "Melhora a colaboração em equipe e a criatividade.",
+      "url": "https://miro.com"
+    },
+    {
+      "name": "Wix ADI",
+      "what_is": "Inteligência Artificial para criação de sites no Wix.",
+      "what_it_solves": "Gera sites personalizados com base nas preferências do usuário.",
+      "why_it.matters": "Facilita a criação de sites para usuários sem experiência técnica.",
+      "url": "https://www.wix.com/adi"
+    },
+    {
+      "name": "Pictory",
+      "what_is": "Ferramenta de criação de vídeos a partir de texto.",
+      "what_it_solves": "Transforma artigos e textos em vídeos curtos.",
+      "why_it.matters": "Aumenta o alcance de conteúdo escrito através de formatos visuais.",
+      "url": "https://pictory.ai"
+    },
+    {
+      "name": "Descript",
+      "what_is": "Software de edição de áudio e vídeo com IA.",
+      "what_it_solves": "Permite edição de conteúdo multimídia de forma intuitiva.",
+      "why_it.matters": "Facilita a produção de podcasts e vídeos de forma acessível.",
+      "url": "https://www.descript.com"
+    },
+    {
+      "name": "AI Dungeon",
+      "what_is": "Jogo interativo de narrativa gerado por IA.",
+      "what_it_solves": "Cria histórias personalizadas em tempo real com base nas escolhas do jogador.",
+      "why_it.matters": "Oferece uma experiência de jogo única e imersiva.",
+      "url": "https://play.aidungeon.io"
+    },
+    {
+      "name": "Kuki",
+      "what_is": "Chatbot de conversação com IA.",
+      "what_it_solves": "Interage com usuários em conversas naturais.",
+      "why_it.matters": "Melhora a experiência do usuário em interações automatizadas.",
+      "url": "https://www.kuki.ai"
+    },
+    {
+      "name": "DeepL Write",
+      "what_is": "Ferramenta de escrita assistida por IA da DeepL.",
+      "what_it_solves": "Aprimora textos com sugestões de estilo e gramática.",
+      "why_it.matters": "Melhora a qualidade da escrita em diversos idiomas.",
+      "url": "https://www.deepl.com/write"
+    },
+    {
+      "name": "Katalon TestOps",
+      "what_is": "Plataforma de automação de testes com IA.",
+      "what_it_solves": "Melhora a eficiência e a eficácia de testes de software.",
+      "why_it.matters": "Aumenta a qualidade do software e reduz o tempo de lançamento.",
+      "url": "https://www.katalon.com/testops"
+    },
+    {
+      "name": "Cogram",
+      "what_is": "Assistente de programação com IA.",
+      "what_it_solves": "Ajuda programadores a gerar e corrigir código.",
+      "why_it.matters": "Aumenta a produtividade e reduz erros de codificação.",
+      "url": "https://www.cogram.com"
+    },
+    {
+      "name": "Scribe",
+      "what_is": "Ferramenta de documentação automatizada.",
+      "what_it_solves": "Cria guias e documentação a partir de ações do usuário.",
+      "why_it.matters": "Facilita a criação de documentação em ambientes de trabalho.",
+      "url": "https://scribehow.com"
+    },
+    {
+      "name": "Gptify",
+      "what_is": "Ferramenta de integração de IA para chatbots.",
+      "what_it_solves": "Melhora a resposta de chatbots com IA generativa.",
+      "why_it.matters": "Aumenta a satisfação do cliente em interações automatizadas.",
+      "url": "https://gptify.com"
+    },
+    {
+      "name": "Fotor",
+      "what_is": "Uma plataforma de edição de fotos com recursos de IA.",
+      "what_it_solves": "Melhora a qualidade de imagens e permite edições rápidas.",
+      "why_it.matters": "Acessível para usuários sem experiência em design gráfico.",
+      "url": "https://www.fotor.com"
+    },
+    {
+      "name": "Kuki Chatbot",
+      "what_is": "Um chatbot de conversação com IA.",
+      "what_it_solves": "Fornece suporte ao cliente e interação em tempo real.",
+      "why_it.matters": "Melhora a experiência do cliente e reduz a carga de trabalho humano.",
+      "url": "https://www.kuki.ai"
+    },
+    {
+      "name": "Replika",
+      "what_is": "Um chatbot de IA que atua como amigo virtual.",
+      "what_it_solves": "Oferece suporte emocional e interação social.",
+      "why_it.matters": "Ajuda na saúde mental e no bem-estar dos usuários.",
+      "url": "https://replika.ai"
+    },
+    {
+      "name": "Poe",
+      "what_is": "Uma plataforma para interagir com diferentes modelos de IA.",
+      "what_it_solves": "Permite aos usuários experimentar e comparar diversos modelos de linguagem.",
+      "why_it.matters": "Facilita a compreensão e o uso de IA para diferentes finalidades.",
+      "url": "https://poe.com"
+    },
+    {
+      "name": "Genei",
+      "what_is": "Uma ferramenta de pesquisa e resumo de informações com IA.",
+      "what_it_solves": "Facilita a coleta e síntese de informações relevantes.",
+      "why_it.matters": "Aumenta a eficiência na pesquisa e no aprendizado.",
+      "url": "https://www.genei.io"
+    },
+    {
+      "name": "TidyCal",
+      "what_is": "Uma ferramenta de agendamento inteligente com IA.",
+      "what_it_solves": "Otimizando o agendamento de reuniões e eventos.",
+      "why_it.matters": "Reduz conflitos de agenda e melhora a gestão do tempo.",
+      "url": "https://tidycal.com"
+    },
+    {
+      "name": "Lattice",
+      "what_is": "Uma plataforma de gestão de desempenho com IA.",
+      "what_it_solves": "Apoia o desenvolvimento e feedback de funcionários.",
+      "why_it.matters": "Melhora a retenção e o engajamento de talentos nas empresas.",
+      "url": "https://lattice.com"
+    }
+  ]
+}
